@@ -100,7 +100,7 @@ if(process.env.ENV !== "DEV") {
   ° Create HTTPS server.
   */
   var server = https.createServer(options, app).listen(https_port, function () {
-  console.log('Magic happens on port well bud ' + https_port);
+  console.log('Magic happens on port ' + https_port);
   });
 
   /**
