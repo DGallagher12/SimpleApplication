@@ -42,7 +42,7 @@ jobs:
             - ./node_modules
   deploy:
     docker:
-      - image: circleci/node:latest
+      - image: cimg/node:19.7.0
     steps:
       - run: 
           name: deploy-application
