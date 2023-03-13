@@ -46,5 +46,5 @@ jobs:
     steps:
       - run: 
           name: deploy-application
-          command: ssh -o StrictHostKeyChecking=no $ubuntu@ip-16.170.232.234 export SERVER=\$SERVER/; export PRIVATE_KEY=\$PRIVATE_KEY\; rm -rf SimpleApplication/; DGallagher12/SimpleApplication.git; source SimpleApplication/deploy.sh
+          command: ssh -o StrictHostKeyChecking=no $ubuntu@ip-172-31-32-93 export SERVER=\$SERVER/; export PRIVATE_KEY=\$PRIVATE_KEY\; rm -rf SimpleApplication/; DGallagher12/SimpleApplication.git; source SimpleApplication/deploy.sh
 # deployment successful
